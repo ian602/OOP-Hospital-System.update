@@ -1,3 +1,4 @@
+package hospital;
 public class Nurse extends MedicalStaff {
 
     public Nurse(String name, int age, double salary) {

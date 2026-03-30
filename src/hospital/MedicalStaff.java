@@ -1,3 +1,4 @@
+package hospital;
 public abstract class MedicalStaff extends Person implements Payable {
 
     private double salary;

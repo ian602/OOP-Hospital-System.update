@@ -1,3 +1,4 @@
+package hospital;
 public class Patient extends Person {
 
     private String illness;
@@ -11,5 +12,10 @@ public class Patient extends Person {
     public void displayInfo() {
         System.out.println("Patient: " + getName() +
                 ", Illness: " + illness);
+    }
+
+    @Override
+    public String toString() {
+        return getName() + "," + getAge() + "," + illness;
     }
 }

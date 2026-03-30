@@ -1,3 +1,4 @@
+package hospital;
 public class Doctor extends MedicalStaff implements Treatable {
 
     private String specialization;
